@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Iuri Silva" />
+    <meta name="author" content="Aryan Rajput" />
     <meta
       name="description"
-      content="Meu nome é Iuri, desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO."
+      content="My name is Aryan Rajput, I specialize in DevOps, focusing on automating workflows, creating robust CI/CD pipelines, and architecting resilient cloud infrastructures."
     />
     <meta
       name="keywords"
-      content="sites, web, desenvolvimento, frontend, iuri silva, ui designer, programador, iuricode, front-end, designer, ui, iuri, freelancer, freela, website, portfólio"
+      content="DevOps, automation, CI/CD, cloud infrastructure, Aryan Rajput, Docker, Kubernetes, Jenkins, Ansible, freelance DevOps, software deployment"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#986DFF" />
-    <meta name="copyright" content="Iuri Silva 2021" />
-    <meta http-equiv="content-language" content="pt-br" />
-    <meta
-      property="og:image"
-      content="https://iuricode.com/assets/image/preview.png"
-    />
-    <meta property="og:title" content="Portfólio // Iuri Silva" />
-    <meta property="og:description" content="Portfólio // Iuri Silva" />
+    <meta name="copyright" content="Aryan Rajput 2021" />
+    <meta http-equiv="content-language" content="en" />
+    <meta property="og:title" content="Portfolio // Aryan Rajput" />
+    <meta property="og:description" content="Portfolio // Aryan Rajput" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,35 +26,39 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="shortcut icon"
-      href="assets/image/logo-page.svg"
+      href="assets/image/aryan-rajput-high-resolution-logo-transparent.png"
       type="image/x-icon"
     />
-    <link rel="icon" href="assets/image/logo-page.svg" />
-    <link rel="apple-touch-icon" href="assets/image/logo-page.svg" />
-    <link rel="canonical" href="https://iuricode.com/" />
+    <link rel="icon" href="assets/image/aryan-rajput-high-resolution-logo-transparent.png" />
+    <link rel="apple-touch-icon" href="assets/image/aryan-rajput-high-resolution-logo-transparent.png" />
     <script src="assets/js/svg-inject.min.js"></script>
-    <title>Portfólio // Iuri Silva</title>
+    <title>Aryan Rajput</title>
   </head>
 
   <body>
     <header>
       <div class="grid-layout">
         <nav>
-          <img
-            src="assets/image/logo-iuricode.svg"
-            alt="iuricode"
-            width="150px"
-            height="25px"
-          />
+          <div
+            class="logo-text"
+            style="
+              font-family: 'Dancing Script', cursive;
+              font-size: 24px;
+              font-weight: 600;
+              background: linear-gradient(to right, #986dff, #ffffff);
+              -webkit-background-clip: text;
+              color: transparent;
+            "
+          >
+            Aryan Rajput
+          </div>
           <div class="mobile-menu">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
           </div>
           <ul class="nav-list">
-            <li><a href="https://iuricode-blog.vercel.app/" rel="noopener" target="_blank">Blog</a></li>
-            <li><a href="https://iuricode-blog.vercel.app/setup" rel="noopener" target="_blank">Setup</a></li>
-            <li><a href="https://iuricode.com/efront/" rel="noopener" target="_blank">eBook</a></li>
+            <li><button id="hire-now-button">Hire Now</button></li>
           </ul>
         </nav>
       </div>
@@ -70,27 +70,26 @@
           <div id="home">
             <div id="home-container-text">
               <h1 class="delayMediumReveal">
-                Ajudando empresas a construírem
-                <span>produtos digitais</span> de forma moderna e de alta
-                qualidade.
+                Enabling Modern, Solutions through
+                <span>High-Quality Digital</span> DevOps
               </h1>
               <p class="typewriter">
-                Uma mistura de Design, Desenvolvimento Frontend e habilidade
-                profissional que vão destacar seu produto no mercado.
+                As a DevOps Engineer, I integrate and automate the processes
+                between software development and IT teams to enhance the speed
+                and reliability of software deployment.
               </p>
 
               <a
-                href="https://iuricode.com/efront/"
-                rel="noopener"
-                target="_blank"
+                href="Aryan.pdf"
+                download="AryanRajput"
                 class="delayExtraBigReveal"
               >
-                Aprenda frontend comigo
+                Download Resume
               </a>
             </div>
 
             <img
-              src="assets/image/logo.svg"
+              src="assets/image/-high-resolution-logo-transparent.png"
               alt="ìcone iuricode"
               onload="SVGInject(this)"
               id="logo"
@@ -105,93 +104,59 @@
         <div class="grid-layout">
           <div>
             <div id="creator-photo" class="delayMediumReveal">
-              <h3 class="delayExtraBigReveal">Criador do eFront</h3>
+              <!-- <h3 class="delayExtraBigReveal">Creator of eFront</h3> -->
             </div>
             <div>
-              <h4 class="delayMediumReveal">Quem sou</h4>
-              <h2 class="delaySmallReveal">Iuri Silva</h2>
-              <h3 class="delayMediumReveal">
-                Frontend Developer & UI Designer
-              </h3>
+              <h4 class="delayMediumReveal">Who am I</h4>
+              <h2 class="delaySmallReveal">Aryan Rajput</h2>
+              <h3 class="delayMediumReveal">DevOps Engineer</h3>
 
               <p class="delayLargeReveal">
-                Meu nome é Iuri Silva, ou “iuricode” (é como me chamam agora)
-                sou o criador do eFront, um material de ensino de frontend pela
-                internet. Atualmente sou freelancer como Frontend Developer e UI
-                Designer. Desenvolvo interfaces modernas e de alta qualidade,
-                concentrado em performance, animações, responsividade e SEO.
+                As a passionate DevOps Engineer, I merge development and
+                operations to create seamless, efficient, and high-performing
+                systems. My freelance journey revolves around automating complex
+                workflows, crafting robust CI/CD pipelines, and architecting
+                resilient cloud infrastructures. With expertise in tools like
+                Docker, Kubernetes, Jenkins, and Ansible, I transform
+                development processes, ensuring rapid, reliable, and secure
+                software delivery. My mission is to empower teams to achieve
+                continuous integration and delivery with unmatched agility and
+                precision.
               </p>
               <nav class="delayLargeReveal">
                 <ul>
                   <a
-                    href="https://www.instagram.com/iuricode/"
+                    href="https://www.instagram.com/aryan.rajput.9"
                     rel="noopener"
                     target="_blank"
                     ><li>
                       <img
                         src="./assets/icons/instagram.svg"
-                        alt="Ícone do Instagram"
+                        alt="Instagram Icon"
                         onload="SVGInject(this)"
                       /></li
                   ></a>
 
                   <a
-                    href="https://www.linkedin.com/in/iuricode/"
+                    href="https://www.linkedin.com/in/aryanrajput41"
                     rel="noopener"
                     target="_blank"
                     ><li>
                       <img
                         src="./assets/icons/linkedin.svg"
                         rel="noopener"
-                        alt="Ícone do LinkedIn"
+                        alt="LinkedIn Icon"
                         onload="SVGInject(this)"
                       /></li
                   ></a>
-
                   <a
-                    href="https://iuricode-blog.vercel.app/"
-                    rel="noopener"
-                    target="_blank"
-                    ><li>
-                      <img
-                        src="./assets/icons/laptop.svg"
-                        alt="Ícone de um laptop"
-                        onload="SVGInject(this)"
-                      /></li
-                  ></a>
-
-                  <a
-                    href="https://discord.gg/uHWE7QbXnp"
-                    rel="noopener"
-                    target="_blank"
-                    ><li>
-                      <img
-                        src="./assets/icons/discord.svg"
-                        alt="Ícone do Discord"
-                        onload="SVGInject(this)"
-                      /></li
-                  ></a>
-
-                  <a
-                    href="https://github.com/iuricode"
+                    href="https://github.com/AryanThakur41"
                     rel="noopener"
                     target="_blank"
                     ><li>
                       <img
                         src="./assets/icons/github.svg"
-                        alt="Ícone do GitHub"
-                        onload="SVGInject(this)"
-                      /></li
-                  ></a>
-
-                  <a
-                    href="https://www.behance.net/iuricode"
-                    rel="noopener"
-                    target="_blank"
-                    ><li>
-                      <img
-                        src="./assets/icons/behance.svg"
-                        alt="Ícone do Behance"
+                        alt="GitHub Icon"
                         onload="SVGInject(this)"
                       /></li
                   ></a>
@@ -204,39 +169,37 @@
 
       <section id="s-experience">
         <div class="grid-layout">
-          <h2 class="delaySmallReveal">Experiências <span>.</span></h2>
+          <h2 class="delaySmallReveal">Experiences <span>.</span></h2>
           <div id="experience">
             <div
               class="option-experience intervalCardReveal"
               id="experience-company"
             >
               <div class="company digitalhouse activeExperience">
-                <h3>Digital House</h3>
+                <h3>VisionIAS</h3>
               </div>
-              <div class="company zuplae">
+              <!-- <div class="company zuplae">
                 <h3>Zuplae</h3>
-              </div>
-              <div class="company contweb">
+              </div> -->
+              <!-- <div class="company contweb">
                 <h3>ContWeb</h3>
-              </div>
-              <div class="company codigofontetv">
+              </div> -->
+              <!-- <div class="company codigofontetv">
                 <h3>Código Fonte TV</h3>
-              </div>
+              </div> -->
             </div>
             <div class="text-experience intervalCardReveal">
               <div>
-                <h4 class="titleExperience">
-                  Professor conteudista em Frontend
-                </h4>
-                <p class="dateExperience">Nov 2021 - Nov 2022 (1 ano)</p>
+                <h4 class="titleExperience">DevOps Engineer (Intern)</h4>
+                <p class="dateExperience">Jan 2024 - present</p>
               </div>
-              <h5 class="companyExperience">Digital House</h5>
+              <h5 class="companyExperience">VisionIAS</h5>
               <p class="changeExperience">
-                Trabalhei como instrutor conteudista em frontend na Digital
-                House, o trabalho consistia em criar conteúdos para as aulas de
-                especialização frontend. Alguns temas dos conteúdos realizados
-                foram: React, Redux, TypeScript, Testes, GraphQL, Next.js, MUI,
-                React Hook Form e styled-components.
+                I worked as a DevOps Engineer at VisionIAS, where my
+                responsibilities included developing specialization classes in
+                DevOps. Some of the topics covered were: Docker, Kubernetes,
+                Jenkins, Terraform, AWS, CI/CD pipelines and infrastructure as
+                code.
               </p>
             </div>
           </div>
@@ -245,93 +208,97 @@
 
       <section id="s-projects">
         <div class="grid-layout">
-          <h2 class="delaySmallReveal">Projetos <span>.</span></h2>
+          <h2 class="delaySmallReveal">Projects <span>.</span></h2>
           <div id="projects">
             <article class="intervalCardReveal teslabank">
-              <h3>TeslaBank</h3>
+              <h3>Laravel app deployment</h3>
               <p>
-                Site institucional de banco digital, feito em HTML, Sass e
-                JavaScript.
+                Deploying a Laravel app on AWS ECS EC2 involves Docker, ECS
+                clusters, EC2 instances, load balancers, RDS, S3, security
+                groups, and IAM roles for a robust deployment.
               </p>
 
-              <a
+              <!-- <a
                 href="https://iuricode.com/teslabank/"
                 rel="noopener"
                 target="_blank"
                 id="teslabank"
-                >Visualizar projeto
-              </a>
+                >View project
+              </a> -->
             </article>
 
             <article class="intervalCardReveal naped">
-              <h3>Naped</h3>
+              <h3>Upgrade mysql version</h3>
               <p>
-                Site de notícias nerd, feito em Next.js, TypeScript e
-                styled-components.
+                Upgrading MySQL from 5.5 to 8.0 involves sequential upgrades to
+                5.6, 5.7, and finally 8.0, ensuring data integrity and
+                compatibility at each step.
               </p>
 
-              <a
+              <!-- <a
                 href="https://efront-naped.vercel.app/"
                 rel="noopener"
                 target="_blank"
                 id="naped"
-                >Visualizar projeto
-              </a>
+                >View project
+              </a> -->
             </article>
 
             <article class="intervalCardReveal efront">
-              <h3>eFront</h3>
+              <h3>Django Deployment</h3>
               <p>
-                Página de vendas do eFront, feito em HTML, Sass e JavaScript.
+                Dockerize a Django app by creating a Dockerfile and
+                docker-compose.yml, then deploy it on an EC2 server for scalable
+                and isolated application management.
               </p>
-              <a
+              <!-- <a
                 href="https://iuricode.com/efront"
                 rel="noopener"
                 target="_blank"
                 id="efront"
-                >Visualizar projeto
-              </a>
+                >View project
+              </a> -->
             </article>
 
             <article class="intervalCardReveal steam">
-              <h3>Steam</h3>
-              <p>Redesign da Steam, feito em HTML, Sass e JavaScript.</p>
-              <a
+              <h3>CI / CD for django app</h3>
+              <p>
+                Create a Jenkins pipeline for a Django application to automate
+                testing, building, and deployment processes. Jenkins,
+                Jenkinsfile, Docker, Git, Django
+              </p>
+              <!-- <a
                 href="https://efront-steam.vercel.app/"
                 rel="noopener"
                 target="_blank"
                 id="steam"
-                >Visualizar projeto
-              </a>
+                >View project
+              </a> -->
             </article>
 
             <article class="intervalCardReveal none">
-              <h3>Em construção...</h3>
-              <p>
-                Pegue o café e espere um pouco, estou desenvolvendo o projeto.
-              </p>
+              <h3>Under construction...</h3>
+              <p>Grab a coffee and wait a bit, I'm developing the project.</p>
             </article>
 
             <article class="intervalCardReveal none">
-              <h3>Em construção...</h3>
-              <p>
-                Pegue o café e espere um pouco, estou desenvolvendo o projeto.
-              </p>
+              <h3>Under construction...</h3>
+              <p>Grab a coffee and wait a bit, I'm developing the project.</p>
             </article>
           </div>
           <a
-            href="https://github.com/iuricode?tab=repositories"
+            href="https://github.com/AryanThakur41/"
             rel="noopener"
             target="_blank"
             class="delayExtraBigReveal"
-            >Repositórios no GitHub</a
+            >Repositories on GitHub</a
           >
         </div>
       </section>
 
       <section id="s-services">
         <div class="grid-layout">
-          <h2 class="delaySmallReveal">Serviços <span>.</span></h2>
+          <h2 class="delaySmallReveal">Services <span>.</span></h2>
           <div id="services">
             <article class="intervalCardReveal">
               <div>
@@ -339,13 +306,13 @@
                   src="assets/icons/icon-design.svg"
                   width="100px"
                   height="100px"
-                  alt="ícone layers"
+                  alt="layers icon"
                 />
               </div>
-              <h3>UI Design</h3>
+              <h3>Cloud Computing</h3>
               <p>
-                Desenho interface de forma que ela seja clara, objetiva e
-                principalmente intuitiva para o usuário.
+                Cloud computing provides scalable and flexible on-demand access
+                to computing resources and services over the internet.
               </p>
             </article>
 
@@ -355,13 +322,13 @@
                   src="assets/icons/icon-front.svg"
                   width="100px"
                   height="100px"
-                  alt="ícone código"
+                  alt="code icon"
                 />
               </div>
-              <h3>Desenvolvimento</h3>
+              <h3>Deployment</h3>
               <p>
-                Desenvolvo sites profissionais, blogs, portfólios, landing pages
-                e e-commerce.
+                Deployment involves releasing software or applications to a
+                production environment for use by end users.
               </p>
             </article>
 
@@ -371,13 +338,13 @@
                   src="assets/icons/icon-app-design.svg"
                   width="100px"
                   height="100px"
-                  alt="ícone imagem"
+                  alt="image icon"
                 />
               </div>
-              <h3>Motion</h3>
+              <h3>Monitoring</h3>
               <p>
-                Crio interações que transmitem sensação de modernidade, além de
-                chamarem a atenção do usuário.
+                Monitoring involves continuously tracking and analyzing the
+                performance and health of systems and applications
               </p>
             </article>
           </div>
@@ -388,84 +355,91 @@
         <div class="grid-layout">
           <div id="skills">
             <article id="skills-text">
-              <h2 class="delaySmallReveal">Conhecimentos <span>.</span></h2>
+              <h2 class="delaySmallReveal">Skills <span>.</span></h2>
               <p class="delayMediumReveal changeDescription">
-                *passe o cursor do mouse no card para ler*
+                1. AWS <br />
+                2. Docker <br />
+                3. Jenkins <br />
+                4. Kubernetes <br />
+                5. Grafana <br />
+                6. Git / GitHub <br />
+                7. Networking <br />
+                8. Linux
               </p>
             </article>
 
             <div id="skills-cards">
               <article class="html intervalCardReveal">
                 <img
-                  src="assets/icons/html.svg"
+                  src="assets/image/27l60t5dial14ogc2fctelidiv.png"
                   width="60px"
                   height="60px"
-                  alt="ícone do html"
+                  alt="html icon"
                 />
               </article>
               <article class="css intervalCardReveal">
                 <img
-                  src="assets/icons/css.svg"
+                  src="assets/image/docker-inc-intermodal-container-kubernetes-dynamic-host-configuration-protocol-6b730dd416d1b20ac140c9db4093917c.png"
                   width="60px"
                   height="60px"
-                  alt="ícone do css"
+                  alt="css icon"
                 />
               </article>
               <article class="js intervalCardReveal">
                 <img
-                  src="assets/icons/javascript.svg"
+                  src="assets/image/jenkins-continuous-integration-build-automation-continuous-delivery-software-build-integration-5746ad97d1c4c397fcf493945d1507f7.png"
                   width="60px"
                   height="60px"
-                  alt="ícone do javascript"
+                  alt="javascript icon"
                 />
               </article>
               <article class="sass intervalCardReveal">
                 <img
-                  src="assets/icons/sass.svg"
+                  src="assets/image/kubernetes-orchestration-docker-google-cloud-platform-lxc-cloud-computing-78a98fc8a4d30b40ecf1c7b7c6af781d.png"
                   width="60px"
                   height="60px"
-                  alt="ícone do sass"
+                  alt="sass icon"
                 />
               </article>
               <article class="react intervalCardReveal">
                 <img
-                  src="assets/icons/react.svg"
+                  src="assets/image/dgj14fcq3603m5iqbp8bggmork.png"
                   width="60px"
                   height="60px"
-                  alt="ícone do react"
+                  alt="react icon"
                 />
               </article>
               <article class="next intervalCardReveal">
                 <img
-                  src="assets/icons/next.svg"
+                  src="assets/image/ba8u9otcvrpidtbd94kvclvgb2.png"
                   width="60px"
                   height="60px"
-                  alt="ícone do next"
+                  alt="next icon"
                 />
               </article>
               <article class="styled intervalCardReveal">
                 <img
-                  src="assets/icons/styled-components.svg"
+                  src="assets/image/j7iev8coiljani2jamkd87p2r1.png"
                   width="60px"
                   height="60px"
-                  alt="ícone do styled"
+                  alt="styled-components icon"
                 />
               </article>
               <article class="tailwind intervalCardReveal">
                 <img
-                  src="assets/icons/tailwindcss.svg"
+                  src="assets/image/tuxedo-linux-distribution-penguin-3ce1a8d4c4d52526784f65aae1118312.png"
                   width="60px"
                   height="60px"
-                  alt="ícone do tailwind"
+                  alt="tailwind icon"
                 />
               </article>
 
-              <article class="radix intervalCardReveal">
+              <!-- <article class="radix intervalCardReveal">
                 <img
                   src="assets/icons/radix.svg"
                   width="60px"
                   height="60px"
-                  alt="ícone do radix"
+                  alt="radix icon"
                 />
               </article>
 
@@ -474,7 +448,7 @@
                   src="assets/icons/typescript.svg"
                   width="60px"
                   height="60px"
-                  alt="ícone do typescript"
+                  alt="typescript icon"
                 />
               </article>
 
@@ -483,7 +457,7 @@
                   src="assets/icons/storybook.svg"
                   width="60px"
                   height="60px"
-                  alt="ícone do storybook"
+                  alt="storybook icon"
                 />
               </article>
 
@@ -492,36 +466,60 @@
                   src="assets/icons/cypress.svg"
                   width="60px"
                   height="60px"
-                  alt="ícone do cypress"
+                  alt="cypress icon"
                 />
-              </article>
+              </article> -->
             </div>
           </div>
         </div>
       </section>
 
       <footer>
-        <div class="grid-layout">
-          <p>
-            Copyright © 2021
-            <a href="https://iuricode.com" rel="noopener" target="_blank">
-              iuricode.com.
-            </a>
-            Todos os direitos reservados.
-          </p>
-
-          <div>
-            <p>Powered by</p>
-            <img
-              src="./assets/icons/iuricode-logo-footer.svg"
-              alt="Logo iuricode"
-            />
-          </div>
-        </div>
+        <style>
+          @keyframes blink {
+            100% {
+              opacity: 1;
+            }
+            50% {
+              opacity: 0;
+            }
+          }
+          .contact-button {
+            background: #7216d5;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background 0.5s ease, transform 0.3s ease;
+            margin-left: 10%;
+          }
+          .contact-button:hover {
+            background: rgb(84, 5, 141);
+          }
+        </style>
+        <button
+          class="contact-button"
+          onclick="window.location.href='mailto:thakuraryan0411@gmail.com'">
+          Contact Us
+        </button>
+        
       </footer>
     </main>
 
     <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
     <script type="module" src="assets/js/main.js"></script>
+    <script>
+      document
+        .getElementById("hire-now-button")
+        .addEventListener("click", function () {
+          window.location.href = "mailto:thakuraryan0411@gmail.com";
+        });
+    </script>
   </body>
 </html>
